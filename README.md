@@ -1,7 +1,10 @@
 docker-gollum
 =============
 
-This is a Dockerfile that installs [gollum](https://github.com/gollum/gollum) and a minutely cron job pushing your changes made to the Wiki back up to the remote repository. A word of advice: As you'll have to use a [deploy key](https://help.github.com/articles/managing-deploy-keys#deploy-keys) to make that happen, ensure to [duplicate the repository](https://help.github.com/articles/duplicating-a-repository), so that you can set it to private. Simply forking the repository won't work as you can't make forks of public repositories private anymore.
+This is a Dockerfile that installs [gollum](https://github.com/gollum/gollum) and a minutely cron job pushing your changes made to the Wiki back up to the remote repository.
+
+**A word of advice:**  
+As you'll have to use a [deploy key](https://help.github.com/articles/managing-deploy-keys#deploy-keys) to make that happen, ensure to [duplicate the repository](https://help.github.com/articles/duplicating-a-repository), so that you can set it to private. Simply forking the repository won't work as you can't make forks of public repositories private anymore.
 
 # Installation
 

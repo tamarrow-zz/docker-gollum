@@ -6,4 +6,4 @@ source /root/.bashrc
 cron -f &
 
 # Run gollum
-cd /var/www/docker-gollum; gollum --port 80 --live-preview --allow-uploads
+cd /var/www/docker-gollum; gollum --live-preview --allow-uploads

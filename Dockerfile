@@ -44,7 +44,7 @@ ADD .docker/run.sh /root/run.sh
 ADD .docker/update_repo.sh /root/update_repo.sh
 
 # Clone and build docker-gollum
-RUN /usr/bin/git clone git@github.com:[username]/docker-gollum.git /var/www/docker-gollum/
+RUN /usr/bin/git clone git@github.com:tamarrow/docker-gollum.git /var/www/docker-gollum/
 RUN /bin/bash -lc 'cd /var/www/docker-gollum; bundle'
 
 EXPOSE 80

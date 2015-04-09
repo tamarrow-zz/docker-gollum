@@ -6,4 +6,5 @@ source /root/.bashrc
 cron -f &
 
 # Run gollum
-cd docker-gollum; gollum --live-preview --allow-uploads --base-path wiki
+echo pwd
+cd /var/www/docker-gollum; gollum --live-preview --allow-uploads
